@@ -18,3 +18,4 @@
 .history/
 bin/
 pkg/
+.idea/
