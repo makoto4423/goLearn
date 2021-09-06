@@ -1,5 +1,7 @@
 package main
 
-func greet() {
+import "fmt"
 
+func greet() {
+	fmt.Println("kk")
 }

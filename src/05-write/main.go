@@ -1,7 +1,7 @@
 package main
 
-import lib "libary/libary"
+import "myGo/src/05-write/libary"
 
 func main() {
-	lib.Hello()
+	libary.Hello()
 }

@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	// 为什么就是解析不了？？？
+	"myGo/src/vsGo/pack"
+)
 
 func noHope() {
 	const c = "k"
@@ -20,4 +24,5 @@ func nested() {
 
 func main() {
 	greet()
+	pack.pack()
 }
